@@ -2,4 +2,5 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377
 function sct_SpeedUp(){
 obj_Player1.SpeedUpActinated = true;
+// peacedance
 }
