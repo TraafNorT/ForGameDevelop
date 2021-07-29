@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "GameJamPrototype",
-    "path": "GameJamPrototype.yyp",
+    "name": "Спрайты",
+    "path": "folders/Спрайты.yy",
   },
   "resourceVersion": "1.0",
   "name": "Sprite3",
