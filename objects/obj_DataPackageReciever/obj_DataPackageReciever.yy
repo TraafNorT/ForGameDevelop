@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite3",
-    "path": "sprites/Sprite3/Sprite3.yy",
+    "name": "spt_DataPackageReciever",
+    "path": "sprites/spt_DataPackageReciever/spt_DataPackageReciever.yy",
   },
   "solid": false,
   "visible": true,

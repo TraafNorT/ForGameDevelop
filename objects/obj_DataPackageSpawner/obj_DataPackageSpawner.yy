@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite2",
-    "path": "sprites/Sprite2/Sprite2.yy",
+    "name": "spt_DataPackageSpawner",
+    "path": "sprites/spt_DataPackageSpawner/spt_DataPackageSpawner.yy",
   },
   "solid": false,
   "visible": true,
