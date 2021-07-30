@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"obj_Player1","path":"objects/obj_Player1/obj_Player1.yy",},"order":0,},
+    {"id":{"name":"sct_datapackage_input","path":"scripts/sct_datapackage_input/sct_datapackage_input.yy",},"order":0,},
     {"id":{"name":"obj_DataPackageSpawner","path":"objects/obj_DataPackageSpawner/obj_DataPackageSpawner.yy",},"order":0,},
     {"id":{"name":"obj_DataPackBlue","path":"objects/obj_DataPackBlue/obj_DataPackBlue.yy",},"order":0,},
     {"id":{"name":"spt_DataPackageReciever","path":"sprites/spt_DataPackageReciever/spt_DataPackageReciever.yy",},"order":4,},
@@ -16,7 +17,6 @@
     {"id":{"name":"snd_BackgroundMusic","path":"sounds/snd_BackgroundMusic/snd_BackgroundMusic.yy",},"order":0,},
     {"id":{"name":"obj_AudioPlayer","path":"objects/obj_AudioPlayer/obj_AudioPlayer.yy",},"order":2,},
     {"id":{"name":"spt_SpeedUp","path":"sprites/spt_SpeedUp/spt_SpeedUp.yy",},"order":2,},
-    {"id":{"name":"obj_SpeedUp","path":"objects/obj_SpeedUp/obj_SpeedUp.yy",},"order":0,},
     {"id":{"name":"rm_gameplay","path":"rooms/rm_gameplay/rm_gameplay.yy",},"order":0,},
   ],
   "Options": [
