@@ -4,13 +4,15 @@
 //* Creation of DataPack----------------
 if(NoReplete){
 	if(alarm[0] <= 0){
-		var color = choose(1, 2, 3);	// 1 - Blue, 2 - Pink, 3 - Yellow
+		var color = choose(1);	// 1 - Blue, 2 - Pink, 3 - Yellow
 		switch(color){
 			case 1: 
 				DataPack = instance_create_layer(x, y, "Instances", obj_DataPackBlue);
-				PackageIndex = object_index;
-				PackageID = instance_id_get(PackageIndex);
-				NoReplete = false; break;
+				with(DataPack){
+					PackageIndex = object_index;
+					PackageID = instance_id_get(PackageIndex);
+					NoReplete = false; break;
+				}
 			case 2:
 				var DataPack = instance_create_layer(x, y, "Instances", obj_DataPackPink);
 				PackageIndex = object_index;
