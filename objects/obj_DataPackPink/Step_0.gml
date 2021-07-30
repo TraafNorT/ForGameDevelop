@@ -4,6 +4,8 @@ if(IsAttached){
 	x = obj_Player1.x + 30;	
 	y = obj_Player1.y;
 }
-if(!place_meeting(x, y, obj_DataPackageReciever)){
-	
+if(IsInputing){
+	if(alarm[0] <= 0){
+		instance_destroy();
+	}
 }
