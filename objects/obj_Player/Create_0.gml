@@ -1,2 +1,6 @@
 MoveSpeed = 4;
-carry_data = "";
+
+up = "W";
+left = "A";
+down = "S";
+right = "D";

@@ -2,9 +2,9 @@ if (sprite_index == spt_alienBlue and other.sprite_index == spt_DataPackageRecie
 	score += 1;
 	sprite_index = spt_alien;
 } else if(sprite_index == spt_alienPink and other.sprite_index == spt_DataPackageRecieverPink){
-	score += 1;
+	score += 2;
 	sprite_index = spt_alien;
 } else if(sprite_index == spt_alienYellow and other.sprite_index == spt_DataPackageRecieverYellow){
-	score += 1;
+	score += 3;
 	sprite_index = spt_alien;
 }
