@@ -1,12 +1,18 @@
-if(keyboard_check(ord(up))){
-	y -= MoveSpeed;
+vspd = (keyboard_check(ord(down)) - keyboard_check(ord(up))) * MoveSpeed;
+hspd = (keyboard_check(ord(right)) - keyboard_check(ord(left))) * MoveSpeed;
+
+if(place_meeting(x+hspd, y, obj_wall)){
+	while(!place_meeting(x+sign(hspd), y, obj_wall)){
+		x = x + sign(hspd);
+	}
+	hspd = 0;
 }
-if(keyboard_check(ord(down))){
-	y += MoveSpeed;
+x = x + hspd;
+
+if(place_meeting(x, y+vspd, obj_wall)){
+	while(!place_meeting(x, y+sign(vspd), obj_wall)){
+		y = y + sign(vspd);
+	}
+	vspd = 0;
 }
-if(keyboard_check(ord(left))){
-	x -= MoveSpeed;
-}
-if(keyboard_check(ord(right))){
-	x += MoveSpeed;
-}
+y = y + vspd;
