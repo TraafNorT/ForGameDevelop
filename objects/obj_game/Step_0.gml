@@ -3,6 +3,7 @@ if(lives == 0 and (room == rm_gameplay or room == rm_gameplay2)){
 	window_set_size(700,700)
 	alarm[0] = 1;
 	room_goto(rm_gameover);
+	audio_play_sound(snd_end, 10, false);
 }
 if(room == rm_gameover and keyboard_check_released(vk_enter)){
 	game_restart();

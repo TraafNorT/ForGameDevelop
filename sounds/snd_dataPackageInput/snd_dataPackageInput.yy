@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 1.0,
+  "volume": 0.49,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_BackgroundMusic.mp3",
-  "duration": 38.37388,
+  "soundFile": "snd_dataPackageInput.mp3",
+  "duration": 1.224,
   "parent": {
     "name": "Звуки",
     "path": "folders/Звуки.yy",
   },
   "resourceVersion": "1.0",
-  "name": "snd_BackgroundMusic",
+  "name": "snd_dataPackageInput",
   "tags": [],
   "resourceType": "GMSound",
 }

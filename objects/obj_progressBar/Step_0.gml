@@ -6,4 +6,5 @@ if(global.arg0 <= 0){
 	with(obj_Player){
 		alarm[0] = 60 * 5;
 	}
+	audio_play_sound(snd_speedUp, 10, false);
 }

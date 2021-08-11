@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_BackgroundMusic.mp3",
-  "duration": 38.37388,
+  "soundFile": "snd_lostLife.mp3",
+  "duration": 2.56,
   "parent": {
     "name": "Звуки",
     "path": "folders/Звуки.yy",
   },
   "resourceVersion": "1.0",
-  "name": "snd_BackgroundMusic",
+  "name": "snd_lostLife",
   "tags": [],
   "resourceType": "GMSound",
 }
