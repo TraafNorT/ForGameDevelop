@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spt_alien",
-    "path": "sprites/spt_alien/spt_alien.yy",
+    "name": "spt_mailBox",
+    "path": "sprites/spt_mailBox/spt_mailBox.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,10 +22,6 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_DataPack","path":"objects/obj_DataPack/obj_DataPack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_DataPackageReciever","path":"objects/obj_DataPackageReciever/obj_DataPackageReciever.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_mail","path":"objects/obj_mail/obj_mail.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
@@ -35,7 +31,7 @@
     "path": "folders/Объекты.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_Player",
+  "name": "obj_mailBox",
   "tags": [],
   "resourceType": "GMObject",
 }

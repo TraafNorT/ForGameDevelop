@@ -10,6 +10,8 @@ if(room == rm_gameplay){
 	dps.image_xscale *= 32;
 	dps.image_yscale *= 32;
 
+	instance_create_layer(320,160,"Instances", obj_mailBox);
+
 	repeat(3){
 		instance = instance_create_layer(64, y_pos, "Instances", obj_DataPackageReciever);
 		instance.sprite_index = rec_data_color[color_number];
@@ -43,6 +45,9 @@ if(room == rm_gameplay2){
 	
 	dps2.image_xscale *= 32;
 	dps2.image_yscale *= 32;
+
+	instance_create_layer(320,160,"Instances", obj_mailBox);
+	instance_create_layer(1080,160,"Instances", obj_mailBox);
 
 	repeat(3){
 		instance = instance_create_layer(64, y_pos, "Instances", obj_DataPackageReciever);

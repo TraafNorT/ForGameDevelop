@@ -1,4 +1,4 @@
-MoveSpeed = 4;
+global.MoveSpeed = 4;
 
 up = "W";
 left = "A";
